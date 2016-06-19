@@ -93,12 +93,15 @@ body, html{
     background-color: #e9c78c;
     margin-top: 80px;
     height: 1000px;
+    color: darkkhaki;
 
 }
 
 #about_skill_widget {
     background-color: white;
     overflow: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 .heading {
@@ -126,8 +129,8 @@ body, html{
 .logo div img {
     width: 75px;
     height: 75px;
-    opacity: 0.5;
-    filter:alpha(opacity=40);
+    opacity: 1;
+    filter:alpha(opacity=100);
     margin: 15px;
 }
 
@@ -143,10 +146,6 @@ body, html{
     font-family: Roboto;
     font-weight: bold;
 }
-
-
-
-
 
 
 
