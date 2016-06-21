@@ -21,7 +21,7 @@
                     <li><a href="#" id="clicked">Home</a></li>
                     <li><a href="#" id="about">About Me</a></li>
                     <li><a href="#">Work</a></li>
-                    <li><a href="Documents/resume.pdf">Resume</a></li>
+                    <li><a href="Documents/resume.pdf" target="_blank">Resume</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact Me</a></li>
                 </ul>
@@ -44,7 +44,7 @@
                 <hr>
                 <p class="paragraph">If you want to know more about me, what I do, and what stuff I like, my <a class="btn btn-danger btn-outline">Blog</a> is a great place to start with.</p>
                 <br>
-                <p class="paragraph">If you want a quickview and brief overview of what have I done and worked on, then my <a class="btn btn-danger btn-outline" href="Documents/resume.pdf">Resume</a> is the answer.</p>
+                <p class="paragraph">If you want a brief overview of what have I done, worked on, and the full set of my skills, then my <a class="btn btn-danger btn-outline" href="Documents/resume.pdf">Resume</a> is the answer.</p>
             </div>
             <div class="col-sm-6">
                 <h1 class="heading">Skills.</h1>
@@ -100,9 +100,17 @@
         </div>
         <!-- end of about and skills widget-->
         
-        <div class="widget" style="height:500px; background-color: beige;">
+        <script type="text/javascript" src="toggle.js"></script>
         
+        <div class="widget" style="height:500px; background-color: beige; position:relative">
+            <a id="work-done">Work Done</a>
+            <a id="working-on">Working on</a>
+            
+            <div class="active" id="workDone" style="position: absolute; height: 100%; width: 100%; background-color: blue; left: 0;"></div>
+            <div id="workOn" style="position: absolute; height: 100%; width: 100%; background-color: green; left: 100%;"></div>
         </div>
+        
+        
         <div class="widget" style="height:200px; background-color: #67C5C2;">
         
         </div>

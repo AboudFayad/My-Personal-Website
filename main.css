@@ -92,8 +92,7 @@ body, html{
 #main_widget {
     background-color: #e9c78c;
     margin-top: 80px;
-    height: 1000px;
-    color: darkkhaki;
+    height: calc(100vh - 80px);
 
 }
 
